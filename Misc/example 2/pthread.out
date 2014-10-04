@@ -1,0 +1,15 @@
+Before adjustments to scheduling policy:
+Pthread Policy is SCHED_OTHER
+After adjustments to scheduling policy:
+Pthread Policy is SCHED_FIFO
+min prio = 1, max prio = 99
+PTHREAD SCOPE SYSTEM
+tv_sec=1373342342, tv_usec=567444, sec=1373342342.567444
+tv_sec=1373342342, tv_usec=569653, sec=1373342342.569653
+stopTOD=1373342342.569653, startTOD=1373342342.567444, dt=0.002209
+Threaded:   Fib(289)				0.002209 secs
+tv_sec=1373342342, tv_usec=569683, sec=1373342342.569683
+tv_sec=1373342342, tv_usec=569692, sec=1373342342.569692
+stopTOD=1373342342.569692, startTOD=1373342342.569683, dt=0.000009
+Sequential: Fib(289)				0.000009 secs
+TEST COMPLETE

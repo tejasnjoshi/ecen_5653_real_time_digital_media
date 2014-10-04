@@ -1,0 +1,117 @@
+drix@lynx:~/prog/lab 3/example_mpeg2$ ./pids Open_Source_HD_Animation_1080p.ts 
+opened Open_Source_HD_Animation_1080p.ts
+.
+PID SEARCH: parsed UNIQUE PID=0 (0x0), total=1 @ MPEG packet=1
+
+PID SEARCH: parsed UNIQUE PID=32 (0x20), total=2 @ MPEG packet=2
+
+PID SEARCH: parsed UNIQUE PID=48 (0x30), total=3 @ MPEG packet=3
+
+PID SEARCH: parsed UNIQUE PID=8191 (0x1fff), total=4 @ MPEG packet=4
+10000 MPEG packets parsed
+curOffset=1880000, will rewind
+.
+PID SEARCH: parsed UNIQUE PID=0 (0x0), total=1
+PAT found
+PAT payload start flag set
+Adaptation field ctl=0x1
+PAT pointer_field=0x0
+PAT table_id=0x0
+section syntax-0-res =0xb0
+PAT section_length=13 (0xd)
+PAT section_number=0
+PAT last_section_number=0
+PAT program_number=1
+PAT PMT PID=0x020 for program 0
+PAT CRC=0x8bf562f9
+
+PID SEARCH: parsed UNIQUE PID=32 (0x20), total=2
+
+PMT found for program 1
+PMT payload start flag set
+Adaptation field ctl=0x1
+PMT pointer_field=0x0
+PMT table_id=0x2
+section syntax-0-res =0xb0
+PMT section_length=29 (0x1d)
+PMT program_number=1
+PMT section_number=0
+PMT last_section_number=0
+PMT program_length=0 (0x0)
+PMT stream_type=2 (0x02)
+PMT elementary_PID=49 (0x31)
+PMT ES_info_length=3
+======== Setting videoPID
+PMT stream_type=129 (0x81)
+PMT elementary_PID=50 (0x32)
+PMT ES_info_length=3
+======== Setting audioPID
+PMT CRC=0xf031e002
+curOffset=376, will rewind
+.
+MPEG packet 3, AdaptFieldCtl=0x2, adaptFieldLen=183, adaptFlag=0x10, pcrFlag=1, opcrFlag=0, discFlag=0
+PCR-33-bit=93218 (0x16c22), PCR-9-bit-rem=230 (0xe6), PCR Bytes=0x00 0x00 0xb6 0x11 0x7e 0xe6
+PCR (1) PID Packet Dump:
+RETIME: currentPCR=27965630.000000, timeNow=1.035764 @ packet 3, prevPCR=0.000000 timeLast=0.000000 @ packet 0
+RETIME: transportRate=4356.204384
+
+MPEG packet 1307, AdaptFieldCtl=0x2, adaptFieldLen=183, adaptFlag=0x10, pcrFlag=1, opcrFlag=0, discFlag=0
+PCR-33-bit=97631 (0x17d5f), PCR-9-bit-rem=155 (0x9b), PCR Bytes=0x00 0x00 0xbe 0xaf 0xfe 0x9b
+PCR (2) PID Packet Dump:
+RETIME: currentPCR=29289455.000000, timeNow=1.084795 @ packet 1307, prevPCR=27965630.000000 timeLast=1.035764 @ packet 3
+RETIME: transportRate=39999873.095009
+
+MPEG packet 2610, AdaptFieldCtl=0x2, adaptFieldLen=183, adaptFlag=0x10, pcrFlag=1, opcrFlag=0, discFlag=0
+PCR-33-bit=102040 (0x18e98), PCR-9-bit-rem=8 (0x8), PCR Bytes=0x00 0x00 0xc7 0x4c 0x7f 0x08
+PCR (3) PID Packet Dump:
+RETIME: currentPCR=30612008.000000, timeNow=1.133778 @ packet 2610, prevPCR=29289455.000000 timeLast=1.084795 @ packet 1307
+RETIME: transportRate=40007639.769446
+
+MPEG packet 3913, AdaptFieldCtl=0x2, adaptFieldLen=183, adaptFlag=0x10, pcrFlag=1, opcrFlag=0, discFlag=0
+PCR-33-bit=106450 (0x19fd2), PCR-9-bit-rem=74 (0x4a), PCR Bytes=0x00 0x00 0xcf 0xe9 0x7e 0x4a
+PCR (4) PID Packet Dump:
+RETIME: currentPCR=31935074.000000, timeNow=1.182781 @ packet 3913, prevPCR=30612008.000000 timeLast=1.133778 @ packet 2610
+RETIME: transportRate=39992127.376866
+
+MPEG packet 5216, AdaptFieldCtl=0x2, adaptFieldLen=183, adaptFlag=0x10, pcrFlag=1, opcrFlag=0, discFlag=0
+PCR-33-bit=110859 (0x1b10b), PCR-9-bit-rem=184 (0xb8), PCR Bytes=0x00 0x00 0xd8 0x85 0xfe 0xb8
+PCR (5) PID Packet Dump:
+RETIME: currentPCR=33257884.000000, timeNow=1.231773 @ packet 5216, prevPCR=31935074.000000 timeLast=1.182781 @ packet 3913
+RETIME: transportRate=39999866.949902
+
+MPEG packet 6519, AdaptFieldCtl=0x2, adaptFieldLen=183, adaptFlag=0x10, pcrFlag=1, opcrFlag=0, discFlag=0
+PCR-33-bit=115268 (0x1c244), PCR-9-bit-rem=37 (0x25), PCR Bytes=0x00 0x00 0xe1 0x22 0x7f 0x25
+PCR (6) PID Packet Dump:
+RETIME: currentPCR=34580437.000000, timeNow=1.280757 @ packet 6519, prevPCR=33257884.000000 timeLast=1.231773 @ packet 5216
+RETIME: transportRate=40007639.769446
+
+MPEG packet 7823, AdaptFieldCtl=0x2, adaptFieldLen=183, adaptFlag=0x10, pcrFlag=1, opcrFlag=0, discFlag=0
+PCR-33-bit=119681 (0x1d381), PCR-9-bit-rem=218 (0xda), PCR Bytes=0x00 0x00 0xe9 0xc0 0xfe 0xda
+PCR (7) PID Packet Dump:
+RETIME: currentPCR=35904518.000000, timeNow=1.329797 @ packet 7823, prevPCR=34580437.000000 timeLast=1.280757 @ packet 6519
+RETIME: transportRate=39992139.453704
+
+MPEG packet 9126, AdaptFieldCtl=0x2, adaptFieldLen=183, adaptFlag=0x10, pcrFlag=1, opcrFlag=0, discFlag=0
+PCR-33-bit=124091 (0x1e4bb), PCR-9-bit-rem=28 (0x1c), PCR Bytes=0x00 0x00 0xf2 0x5d 0xfe 0x1c
+PCR (8) PID Packet Dump:
+RETIME: currentPCR=37227328.000000, timeNow=1.378790 @ packet 9126, prevPCR=35904518.000000 timeLast=1.329797 @ packet 7823
+RETIME: transportRate=39999866.949902
+10000 MPEG packets parsed
+numPIDs=4
+
+
+SUMMARY OF INFO:
+
+Playback count=1:
+STREAM 1
+devID=0, port=0
+streamID=0, streamName=, transportBitRate=0
+TRIPLET INFO: annex=0, freq=0, mode=0, port=0, progNum=0, tsid=0
+numPrograms=1
+PROGRAM 1
+	videoPID[0]=49
+	audioPID[0]=50
+	pmtPID[0]=32
+	pcrPID[0]=48
+
+

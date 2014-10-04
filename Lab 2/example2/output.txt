@@ -1,0 +1,202 @@
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 0
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.160568 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 1
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.160928 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 2
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.161009 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 3
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.161096 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 4
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.161171 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 5
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.161314 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 6
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.161436 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 7
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.161515 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 8
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.161587 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 9
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.161664 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 10
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.161735 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 11
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.161807 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 12
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.161877 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 13
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.161950 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 14
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.162022 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 15
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.162091 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 16
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.162160 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 17
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.162230 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 18
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.162300 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 19
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.162369 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 20
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.162443 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 21
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.162514 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 22
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.162585 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 23
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.162674 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 24
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.162787 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 25
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.162906 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 26
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.163022 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 27
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.163142 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 28
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.163258 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 29
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.163372 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 30
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.163487 sec 
+Jul 27 16:41:07 lynx pthread: #012Creating Thread 31
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.163600 sec 
+Jul 27 16:41:07 lynx pthread: #012Starting Thread 0 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.163713 sec 
+Jul 27 16:41:07 lynx pthread: #012Exiting Thread 0 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.163790 sec 
+Jul 27 16:41:07 lynx pthread: #012Joining Thread 0 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.163849 sec 
+Jul 27 16:41:07 lynx pthread: #012Starting Thread 1 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.163922 sec 
+Jul 27 16:41:07 lynx pthread: #012Exiting Thread 1 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.163954 sec 
+Jul 27 16:41:07 lynx pthread: #012Joining Thread 1 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.163990 sec 
+Jul 27 16:41:07 lynx pthread: #012Starting Thread 2 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.164037 sec 
+Jul 27 16:41:07 lynx pthread: #012Exiting Thread 2 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.164064 sec 
+Jul 27 16:41:07 lynx pthread: #012Joining Thread 2 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.164098 sec 
+Jul 27 16:41:07 lynx pthread: #012Starting Thread 3 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.164161 sec 
+Jul 27 16:41:07 lynx pthread: #012Exiting Thread 3 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.164215 sec 
+Jul 27 16:41:07 lynx pthread: #012Joining Thread 3 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.164279 sec 
+Jul 27 16:41:07 lynx pthread: #012Starting Thread 4 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.164365 sec 
+Jul 27 16:41:07 lynx pthread: #012Exiting Thread 4 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.164415 sec 
+Jul 27 16:41:07 lynx pthread: #012Joining Thread 4 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.164506 sec 
+Jul 27 16:41:07 lynx pthread: #012Starting Thread 5 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.164598 sec 
+Jul 27 16:41:07 lynx pthread: #012Exiting Thread 5 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.164650 sec 
+Jul 27 16:41:07 lynx pthread: #012Joining Thread 5 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.164737 sec 
+Jul 27 16:41:07 lynx pthread: #012Starting Thread 6 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.164832 sec 
+Jul 27 16:41:07 lynx pthread: #012Exiting Thread 6 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.164883 sec 
+Jul 27 16:41:07 lynx pthread: #012Joining Thread 6 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.164967 sec 
+Jul 27 16:41:07 lynx pthread: #012Starting Thread 7 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165057 sec 
+Jul 27 16:41:07 lynx pthread: #012Exiting Thread 7 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165113 sec 
+Jul 27 16:41:07 lynx pthread: #012Joining Thread 7 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165220 sec 
+Jul 27 16:41:07 lynx pthread: #012Starting Thread 8 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165305 sec 
+Jul 27 16:41:07 lynx pthread: #012Exiting Thread 8 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165354 sec 
+Jul 27 16:41:07 lynx pthread: #012Joining Thread 8 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165387 sec 
+Jul 27 16:41:07 lynx pthread: #012Starting Thread 9 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165405 sec 
+Jul 27 16:41:07 lynx pthread: #012Exiting Thread 9 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165414 sec 
+Jul 27 16:41:07 lynx pthread: #012Joining Thread 9 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165427 sec 
+Jul 27 16:41:07 lynx pthread: #012Starting Thread 10 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165442 sec 
+Jul 27 16:41:07 lynx pthread: #012Exiting Thread 10 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165451 sec 
+Jul 27 16:41:07 lynx pthread: #012Joining Thread 10 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165464 sec 
+Jul 27 16:41:07 lynx pthread: #012Starting Thread 11 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165478 sec 
+Jul 27 16:41:07 lynx pthread: #012Exiting Thread 11 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165485 sec 
+Jul 27 16:41:07 lynx pthread: #012Joining Thread 11 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165503 sec 
+Jul 27 16:41:07 lynx pthread: #012Starting Thread 12 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165529 sec 
+Jul 27 16:41:07 lynx pthread: #012Exiting Thread 12 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165543 sec 
+Jul 27 16:41:07 lynx pthread: #012Joining Thread 12 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165567 sec 
+Jul 27 16:41:07 lynx pthread: #012Starting Thread 13 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165593 sec 
+Jul 27 16:41:07 lynx pthread: #012Exiting Thread 13 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165608 sec 
+Jul 27 16:41:07 lynx pthread: #012Joining Thread 13 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165631 sec 
+Jul 27 16:41:07 lynx pthread: #012Starting Thread 14 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165660 sec 
+Jul 27 16:41:07 lynx pthread: #012Exiting Thread 14 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165675 sec 
+Jul 27 16:41:07 lynx pthread: #012Joining Thread 14 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165698 sec 
+Jul 27 16:41:07 lynx pthread: #012Starting Thread 15 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165723 sec 
+Jul 27 16:41:07 lynx pthread: #012Exiting Thread 15 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165737 sec 
+Jul 27 16:41:07 lynx pthread: #012Joining Thread 15 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165759 sec 
+Jul 27 16:41:07 lynx pthread: #012Starting Thread 16 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165784 sec 
+Jul 27 16:41:07 lynx pthread: #012Exiting Thread 16 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165794 sec 
+Jul 27 16:41:07 lynx pthread: #012Joining Thread 16 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165807 sec 
+Jul 27 16:41:07 lynx pthread: #012Starting Thread 17 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165824 sec 
+Jul 27 16:41:07 lynx pthread: #012Exiting Thread 17 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165832 sec 
+Jul 27 16:41:07 lynx pthread: #012Joining Thread 17 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165845 sec 
+Jul 27 16:41:07 lynx pthread: #012Starting Thread 18 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165861 sec 
+Jul 27 16:41:07 lynx pthread: #012Exiting Thread 18 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165869 sec 
+Jul 27 16:41:07 lynx pthread: #012Joining Thread 18 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165882 sec 
+Jul 27 16:41:07 lynx pthread: #012Starting Thread 19 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165898 sec 
+Jul 27 16:41:07 lynx pthread: #012Exiting Thread 19 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165906 sec 
+Jul 27 16:41:07 lynx pthread: #012Joining Thread 19 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165918 sec 
+Jul 27 16:41:07 lynx pthread: #012Starting Thread 20 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165932 sec 
+Jul 27 16:41:07 lynx pthread: #012Exiting Thread 20 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165940 sec 
+Jul 27 16:41:07 lynx pthread: #012Joining Thread 20 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165960 sec 
+Jul 27 16:41:07 lynx pthread: #012Starting Thread 21 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165985 sec 
+Jul 27 16:41:07 lynx pthread: #012Exiting Thread 21 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.165999 sec 
+Jul 27 16:41:07 lynx pthread: #012Joining Thread 21 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.166022 sec 
+Jul 27 16:41:07 lynx pthread: #012Starting Thread 22 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.166047 sec 
+Jul 27 16:41:07 lynx pthread: #012Exiting Thread 22 
+Jul 27 16:41:07 lynx pthread: #012Timeis:1374964867.166061 sec 
+Jul 27 16:41:07 lynx rsyslogd-2177: imuxsock begins to drop messages from pid 8076 due to rate-limiting
+

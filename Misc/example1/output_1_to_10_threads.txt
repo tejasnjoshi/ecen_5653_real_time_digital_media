@@ -1,0 +1,135 @@
+Before adjustments to scheduling policy:
+Pthread Policy is SCHED_OTHER
+After adjustments to scheduling policy:
+Pthread Policy is SCHED_FIFO
+min prio = 1, max prio = 99
+PTHREAD SCOPE SYSTEM
+tv_sec=1373342665, tv_usec=425008, sec=1373342665.425008
+tv_sec=1373342665, tv_usec=427025, sec=1373342665.427025
+stopTOD=1373342665.427025, startTOD=1373342665.425008, dt=0.002017
+Threaded:   Fib(1)				0.002017 secs
+tv_sec=1373342665, tv_usec=427084, sec=1373342665.427084
+tv_sec=1373342665, tv_usec=427096, sec=1373342665.427096
+stopTOD=1373342665.427096, startTOD=1373342665.427084, dt=0.000012
+Sequential: Fib(1)				0.000012 secs
+TEST COMPLETE
+Before adjustments to scheduling policy:
+Pthread Policy is SCHED_OTHER
+After adjustments to scheduling policy:
+Pthread Policy is SCHED_FIFO
+min prio = 1, max prio = 99
+PTHREAD SCOPE SYSTEM
+tv_sec=1373342665, tv_usec=428557, sec=1373342665.428557
+tv_sec=1373342665, tv_usec=429181, sec=1373342665.429181
+stopTOD=1373342665.429181, startTOD=1373342665.428557, dt=0.000624
+Threaded:   Fib(2)				0.000624 secs
+tv_sec=1373342665, tv_usec=429197, sec=1373342665.429197
+tv_sec=1373342665, tv_usec=429201, sec=1373342665.429201
+stopTOD=1373342665.429201, startTOD=1373342665.429197, dt=0.000004
+Sequential: Fib(2)				0.000004 secs
+TEST COMPLETE
+Before adjustments to scheduling policy:
+Pthread Policy is SCHED_OTHER
+After adjustments to scheduling policy:
+Pthread Policy is SCHED_FIFO
+min prio = 1, max prio = 99
+PTHREAD SCOPE SYSTEM
+tv_sec=1373342665, tv_usec=430391, sec=1373342665.430391
+tv_sec=1373342665, tv_usec=430945, sec=1373342665.430945
+stopTOD=1373342665.430945, startTOD=1373342665.430391, dt=0.000554
+Threaded:   Fib(3)				0.000554 secs
+tv_sec=1373342665, tv_usec=430960, sec=1373342665.430960
+tv_sec=1373342665, tv_usec=430963, sec=1373342665.430963
+stopTOD=1373342665.430963, startTOD=1373342665.430960, dt=0.000003
+Sequential: Fib(3)				0.000003 secs
+TEST COMPLETE
+Before adjustments to scheduling policy:
+Pthread Policy is SCHED_OTHER
+After adjustments to scheduling policy:
+Pthread Policy is SCHED_FIFO
+min prio = 1, max prio = 99
+PTHREAD SCOPE SYSTEM
+tv_sec=1373342665, tv_usec=432948, sec=1373342665.432948
+tv_sec=1373342665, tv_usec=435545, sec=1373342665.435545
+stopTOD=1373342665.435545, startTOD=1373342665.432948, dt=0.002597
+Threaded:   Fib(4)				0.002597 secs
+tv_sec=1373342665, tv_usec=435649, sec=1373342665.435649
+tv_sec=1373342665, tv_usec=435668, sec=1373342665.435668
+stopTOD=1373342665.435668, startTOD=1373342665.435649, dt=0.000019
+Sequential: Fib(4)				0.000019 secs
+TEST COMPLETE
+Before adjustments to scheduling policy:
+Pthread Policy is SCHED_OTHER
+After adjustments to scheduling policy:
+Pthread Policy is SCHED_FIFO
+min prio = 1, max prio = 99
+PTHREAD SCOPE SYSTEM
+tv_sec=1373342665, tv_usec=438102, sec=1373342665.438102
+tv_sec=1373342665, tv_usec=440445, sec=1373342665.440445
+stopTOD=1373342665.440445, startTOD=1373342665.438102, dt=0.002343
+Threaded:   Fib(5)				0.002343 secs
+tv_sec=1373342665, tv_usec=440509, sec=1373342665.440509
+tv_sec=1373342665, tv_usec=440521, sec=1373342665.440521
+stopTOD=1373342665.440521, startTOD=1373342665.440509, dt=0.000012
+Sequential: Fib(5)				0.000012 secs
+TEST COMPLETE
+Before adjustments to scheduling policy:
+Pthread Policy is SCHED_OTHER
+After adjustments to scheduling policy:
+Pthread Policy is SCHED_FIFO
+min prio = 1, max prio = 99
+PTHREAD SCOPE SYSTEM
+tv_sec=1373342665, tv_usec=443200, sec=1373342665.443200
+tv_sec=1373342665, tv_usec=445453, sec=1373342665.445453
+stopTOD=1373342665.445453, startTOD=1373342665.443200, dt=0.002253
+Threaded:   Fib(6)				0.002253 secs
+tv_sec=1373342665, tv_usec=445514, sec=1373342665.445514
+tv_sec=1373342665, tv_usec=445526, sec=1373342665.445526
+stopTOD=1373342665.445526, startTOD=1373342665.445514, dt=0.000012
+Sequential: Fib(6)				0.000012 secs
+TEST COMPLETE
+Before adjustments to scheduling policy:
+Pthread Policy is SCHED_OTHER
+After adjustments to scheduling policy:
+Pthread Policy is SCHED_FIFO
+min prio = 1, max prio = 99
+PTHREAD SCOPE SYSTEM
+tv_sec=1373342665, tv_usec=447847, sec=1373342665.447847
+tv_sec=1373342665, tv_usec=450141, sec=1373342665.450141
+stopTOD=1373342665.450141, startTOD=1373342665.447847, dt=0.002294
+Threaded:   Fib(7)				0.002294 secs
+tv_sec=1373342665, tv_usec=450201, sec=1373342665.450201
+tv_sec=1373342665, tv_usec=450213, sec=1373342665.450213
+stopTOD=1373342665.450213, startTOD=1373342665.450201, dt=0.000012
+Sequential: Fib(7)				0.000012 secs
+TEST COMPLETE
+Before adjustments to scheduling policy:
+Pthread Policy is SCHED_OTHER
+After adjustments to scheduling policy:
+Pthread Policy is SCHED_FIFO
+min prio = 1, max prio = 99
+PTHREAD SCOPE SYSTEM
+tv_sec=1373342665, tv_usec=452894, sec=1373342665.452894
+tv_sec=1373342665, tv_usec=456154, sec=1373342665.456154
+stopTOD=1373342665.456154, startTOD=1373342665.452894, dt=0.003260
+Threaded:   Fib(8)				0.003260 secs
+tv_sec=1373342665, tv_usec=456243, sec=1373342665.456243
+tv_sec=1373342665, tv_usec=456260, sec=1373342665.456260
+stopTOD=1373342665.456260, startTOD=1373342665.456243, dt=0.000017
+Sequential: Fib(8)				0.000017 secs
+TEST COMPLETE
+Before adjustments to scheduling policy:
+Pthread Policy is SCHED_OTHER
+After adjustments to scheduling policy:
+Pthread Policy is SCHED_FIFO
+min prio = 1, max prio = 99
+PTHREAD SCOPE SYSTEM
+tv_sec=1373342665, tv_usec=458122, sec=1373342665.458122
+tv_sec=1373342665, tv_usec=459718, sec=1373342665.459718
+stopTOD=1373342665.459718, startTOD=1373342665.458122, dt=0.001596
+Threaded:   Fib(9)				0.001596 secs
+tv_sec=1373342665, tv_usec=459780, sec=1373342665.459780
+tv_sec=1373342665, tv_usec=459792, sec=1373342665.459792
+stopTOD=1373342665.459792, startTOD=1373342665.459780, dt=0.000012
+Sequential: Fib(9)				0.000012 secs
+TEST COMPLETE

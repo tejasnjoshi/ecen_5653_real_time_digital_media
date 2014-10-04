@@ -1,0 +1,3 @@
+#!/bin/bash
+FILE=$1
+rm -rf CMakeFiles CMakeCache.txt *~ Makefile cmake_install.cmake $1

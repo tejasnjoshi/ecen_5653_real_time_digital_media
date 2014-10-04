@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Please enter the file name with the complete path"
+read path_filename
+#command to convert the filename
+echo ffmpeg converted

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for ((i=0 ; i<700;i++))
+do 
+./pthread $i 
+done
+
+

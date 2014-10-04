@@ -1,0 +1,21 @@
+drix@lynx:~/prog/lab3$ sudo mke2fs -m 0 /dev/md0
+mke2fs 1.42 (29-Nov-2011)
+Filesystem label=
+OS type: Linux
+Block size=1024 (log=0)
+Fragment size=1024 (log=0)
+Stride=0 blocks, Stripe width=0 blocks
+16384 inodes, 65472 blocks
+0 blocks (0.00%) reserved for the super user
+First data block=1
+Maximum filesystem blocks=67108864
+8 block groups
+8192 blocks per group, 8192 fragments per group
+2048 inodes per group
+Superblock backups stored on blocks: 
+	8193, 24577, 40961, 57345
+
+Allocating group tables: done                            
+Writing inode tables: done                            
+Writing superblocks and filesystem accounting information: done
+

@@ -1,0 +1,24 @@
+#!/bin/bash
+sudo mke2fs -m 0 /dev/ram0
+sudo mkdir /mnt/rd1
+sudo mount /dev/ram0 /mnt/rd1
+
+sudo mke2fs -m 0 /dev/ram1
+sudo mkdir /mnt/rd2
+sudo mount /dev/ram1 /mnt/rd2
+
+sudo mke2fs -m 0 /dev/ram2
+sudo mkdir /mnt/rd3
+sudo mount /dev/ram2 /mnt/rd3
+
+sudo mke2fs -m 0 /dev/ram3
+sudo mkdir /mnt/rd4
+sudo mount /dev/ram3 /mnt/rd4
+
+sudo mke2fs -m 0 /dev/ram4
+sudo mkdir /mnt/rd5
+sudo mount /dev/ram4 /mnt/rd5
+
+sudo mke2fs -m 0 /dev/ram5
+sudo mkdir /mnt/rd6
+sudo mount /dev/ram5 /mnt/rd6

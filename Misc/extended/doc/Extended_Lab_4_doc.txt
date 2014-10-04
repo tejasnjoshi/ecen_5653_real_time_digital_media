@@ -1,0 +1,98 @@
+EXTENDED LAB NOTES:
+-------------------
+===================
+
+---------------------------------------------------------------------
+Links:
+Converting video to image sequence and back:
+http://pr0gr4mm3r.com/linux/convert-video-to-images-and-back-using-ffmpeg/
+
+Converting video to image sequence lossless:
+http://answers.yahoo.com/question/index?qid=20110313114847AABVecj
+---------------------------------------------------------------------
+Lossy Version for conversion
+ffmpeg -i "input.mov" -an -f image2 "output_%05d.jpg"
+
+Non lossy command
+ffmpeg -i "out.ogv" "out_%04d.jpg"
+
+Command i used:
+---------------
+
+ffmpeg -i sintel_trailer-480p.mp4 -an -f image2 "output_%05d.ppm"
+
+=====================================================================
+---------------------------------------------------------------------
+=====================================================================
+
+
+
+Lossless reconversion to the video format :
+===========================================
+
+
+http://stackoverflow.com/questions/4839303/convert-image-sequence-to-lossless-movie
+
+Command on the site
+Try using a lossless codec, e.g. HuffYUV or FFV1:
+
+ffmpeg -i frame%04d.png -vcodec huffyuv test.avi
+ffmpeg -i frame%04d.png -vcodec ffv1 -sameq test.avi
+Both codecs look portable. HuffYUV appears to be the more popular, but for some reason, huffyuv encoding seems broken on my system, and I get weird colors and black horizontal banding. It could have something to do with the input being RGB (from PNG) and not YUV (input from a raw YUV420 video file works OK). So here are some alternatives (not completely lossless, but visually quite good):
+
+ffmpeg -i frame%04d.png -sameq test.avi
+ffmpeg -i frame%04d.png -vcodec mjpeg -sameq test.avi
+
+Extracting audio:
+=================
+
+--------------------------------------------------------------------
+Link:
+http://linuxpoison.blogspot.com/2010/04/how-to-extract-audio-from-video-file.html
+---------------------------------------------------------------------
+ffmpeg -i video.flv -ab 160k -ac 2 -ar 44100 -vn audio.mp3
+-i indicates the input
+-ab indicates the bit rate (in this example 160kb/sec)
+-vn means no video ouput
+-ac 2 means 2 channels
+-ar 44100 indicates the sampling frequency.
+
+
+---------------------------------------------------------------------
+Link:
+http://zoid.cc/ffmpeg-audio-video/
+---------------------------------------------------------------------
+
+Extracting audio track(s) from video file
+
+Say, we have a video file and we need to extract specific audio track from it. First, let's see which audio tracks we have in this file. Run the following command:
+
+ffmpeg -i <videofile>
+Look at the output and find strings starting with "Stream #":
+
+    Stream #0:0: Video: mpeg4 (Advanced Simple Profile) (XVID / 0x44495658), yuv420p, 720x304 [SAR 1:1 DAR 45:19], 23.98 tbr, 23.98 tbn, 23.98 tbc
+    Stream #0:1: Audio: ac3 ([0] [0][0] / 0x2000), 48000 Hz, 5.1(side), s16, 448 kb/s
+Let's extract audio track (stream 0:1):
+
+ffmpeg -i <videofile> -map 0:1 -vn -acodec copy output.ac3
+
+
+Adding multiple audio tracks to existing video file
+
+Say, we have existing video file with single audio track, and we want to merge two more audio tracks to this video file.
+
+Here is final command:
+
+ffmpeg -i <sourceVideoFile> -i <sourceAudioFile1> -i <sourceAudioFile2> -map 0:0 -map 0:1 -map 1:0 -map 2:0 -c:v copy -c:a copy <outputVideoFile>
+
+
+
+ffmpeg -i source.mkv -i new_audio.mp3 -vcodec copy -acodec copy -acodec copy destination.mkv -newaudio
+
+
+==============================
+SDL
+==============================
+
+
+

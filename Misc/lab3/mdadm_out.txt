@@ -1,0 +1,15 @@
+drix@lynx:~/prog/lab3$ sudo mdadm --create /dev/md0 --chunk=4 --level=1 --raid-devices=2 /dev/ram0 /dev/ram1
+[sudo] password for drix: 
+mdadm: /dev/ram0 appears to contain an ext2fs file system
+    size=65536K  mtime=Wed Dec 31 17:00:00 1969
+mdadm: Note: this array has metadata at the start and
+    may not be suitable as a boot device.  If you plan to
+    store '/boot' on this device please ensure that
+    your boot-loader understands md/v1.x metadata, or use
+    --metadata=0.90
+mdadm: /dev/ram1 appears to contain an ext2fs file system
+    size=65536K  mtime=Wed Dec 31 17:00:00 1969
+Continue creating array? yes
+mdadm: Defaulting to version 1.2 metadata
+mdadm: array /dev/md0 started.
+

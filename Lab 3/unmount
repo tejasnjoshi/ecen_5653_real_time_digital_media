@@ -1,0 +1,7 @@
+#!/bin/bash
+sudo umount /mnt/rd1
+sudo umount /mnt/rd2
+sudo umount /mnt/rd3
+sudo umount /mnt/rd4
+sudo umount /mnt/rd5
+sudo umount /mnt/rd6

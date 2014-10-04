@@ -1,0 +1,34 @@
+drix@lynx:~/prog/lab 3/example 3/test_results$ ffmpeg -i Open_Source_HD_Video_1080p.ts Open_Source_HD_Video_1080p_ffmpeg_.ts
+ffmpeg version 0.8.6-4:0.8.6-0ubuntu0.12.04.1, Copyright (c) 2000-2013 the Libav developers
+  built on Apr  2 2013 17:02:36 with gcc 4.6.3
+*** THIS PROGRAM IS DEPRECATED ***
+This program is only provided for compatibility and will be removed in a future release. Please use avconv instead.
+[mpegts @ 0xed87a0] max_analyze_duration reached
+Input #0, mpegts, from 'Open_Source_HD_Video_1080p.ts':
+  Duration: 00:02:07.16, start: 4.033333, bitrate: 35350 kb/s
+  Program 1 
+    Stream #0.0[0x31]: Video: mpeg2video (Main), yuv420p, 1920x1080 [PAR 1:1 DAR 16:9], 30000 kb/s, 25 fps, 25 tbr, 90k tbn, 50 tbc
+    Stream #0.1[0x32]: Audio: ac3, 48000 Hz, stereo, s16, 384 kb/s
+[buffer @ 0xed86c0] w:1920 h:1080 pixfmt:yuv420p
+[mpegts @ 0xee0440] muxrate VBR, pcr every 2 pkts, sdt every 200, pat/pmt every 40 pkts
+Output #0, mpegts, to 'Open_Source_HD_Video_1080p_ffmpeg_.ts':
+  Metadata:
+    encoder         : Lavf53.21.1
+    Stream #0.0: Video: mpeg2video, yuv420p, 1920x1080 [PAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 90k tbn, 25 tbc
+    Stream #0.1: Audio: mp2, 48000 Hz, stereo, s16, 128 kb/s
+Stream mapping:
+  Stream #0.0 -> #0.0
+  Stream #0.1 -> #0.1
+Press ctrl-c to stop encoding
+[mpeg2video @ 0xeddcc0] warning: first frame is no keyframe
+frame=   26 fps=  0 q=2.0 size=     100kB time=0.86 bitrate= 952.2kbits/
+frame=   73 fps= 70 q=3.4 size=     304kB time=2.71 bitrate= 918.9kbits/
+frame=  119 fps= 77 q=18.4 size=     508kB time=4.56 bitrate= 912.3kbits
+frame=  167 fps= 81 q=31.0 size=     713kB time=6.48 bitrate= 901.9kbits
+frame=  204 fps= 80 q=31.0 size=     967kB time=7.97 bitrate= 994.6kbits
+frame=  228 fps= 74 q=31.0 size=    1355kB time=8.93 bitrate=1243.4kbits
+frame=  252 fps= 71 q=31.0 size=    1747kB time=9.89 bitrate=1447.0kbits
+frame=  276 fps= 68 q=31.0 size=    2154kB time=10.85 bitrate=1626.3kbit
+frame=  300 fps= 65 q=31.0 size=    2581kB time=11.86 bitrate=1783.6kbitframe=  323 fps= 63 q=31.0 size=    2998kB time=12.72 bitrate=1930.7kbitframe=  345 fps= 61 q=31.0 size=    3428kB time=13.66 bitrate=2056.1kbitframe=  368 fps= 60 q=31.0 size=    3851kB time=14.52 bitrate=2172.9kbitframe=  390 fps= 59 q=31.0 size=    4379kB time=15.48 bitrate=2317.2kbitframe=  411 fps= 57 q=31.0 size=    4801kB time=16.32 bitrate=2410.0kbitframe=  434 fps= 57 q=31.0 size=    5286kB time=17.18 bitrate=2519.9kbitframe=  456 fps= 56 q=31.0 size=    5678kB time=18.05 bitrate=2577.2kbitframe=  481 fps= 55 q=31.0 size=    6028kB time=19.03 bitrate=2594.8kbitframe=  506 fps= 55 q=31.0 size=    6355kB time=20.06 bitrate=2594.7kbitframe=  531 fps= 55 q=31.0 size=    6707kB time=21.07 bitrate=2607.5kbitframe=  554 fps= 54 q=31.0 size=    7054kB time=21.98 bitrate=2628.4kbitframe=  577 fps= 54 q=31.0 size=    7421kB time=22.90 bitrate=2655.1kbitframe=  602 fps= 54 q=31.0 size=    7806kB time=23.90 bitrate=2675.2kbitframe=  628 fps= 53 q=31.0 size=    8099kB time=24.91 bitrate=2663.2kbitframe=  653 fps= 53 q=31.0 size=    8418kB time=25.92 bitrate=2660.6kbitframe=  677 fps= 53 q=31.0 size=    8785kB time=26.88 bitrate=2677.2kbitframe=  701 fps= 53 q=31.0 size=    9159kB time=27.84 bitrate=2695.0kbitframe=  725 fps= 53 q=31.0 size=    9532kB time=28.82 bitrate=2709.1kbitframe=  749 fps= 52 q=31.0 size=    9891kB time=29.76 bitrate=2722.7kbitframe=  774 fps= 52 q=24.8 size=   10214kB time=30.77 bitrate=2719.4kbitframe=  796 fps= 52 q=31.0 size=   10621kB time=31.63 bitrate=2750.5kbitframe=  813 fps= 51 q=31.0 size=   11352kB time=32.30 bitrate=2878.7kbitframe=  831 fps= 51 q=31.0 size=   12136kB time=33.05 bitrate=3008.2kbitframe=  849 fps= 50 q=31.0 size=   12887kB time=33.74 bitrate=3128.5kbitframe=  867 fps= 50 q=31.0 size=   13665kB time=34.49 bitrate=3245.8kbitframe=  884 fps= 49 q=31.0 size=   14369kB time=35.16 bitrate=3347.8kbitframe=  902 fps= 49 q=31.0 size=   15190kB time=35.90 bitrate=3465.7kbitframe=  919 fps= 49 q=31.0 size=   15862kB time=36.58 bitrate=3552.6kbitframe=  936 fps= 48 q=31.0 size=   16566kB time=37.25 bitrate=3643.4kbitframe=  951 fps= 47 q=31.0 size=   17271kB time=37.87 bitrate=3735.8kbitframe=  969 fps= 47 q=31.0 size=   17961kB time=38.54 bitrate=3817.4kbitframe=  988 fps= 47 q=31.0 size=   18749kB time=39.31 bitrate=3906.9kbitframe= 1007 fps= 47 q=31.0 size=   19510kB time=40.08 bitrate=3987.7kbitframe= 1026 fps= 46 q=31.0 size=   20318kB time=40.85 bitrate=4074.7kbitframe= 1043 fps= 46 q=31.0 size=   21029kB time=41.52 bitrate=4149.0kbitframe= 1068 fps= 46 q=31.0 size=   21323kB time=42.53 bitrate=4107.3kbitframe= 1093 fps= 46 q=31.0 size=   21689kB time=43.51 bitrate=4083.4kbitframe= 1118 fps= 46 q=31.0 size=   21981kB time=44.54 bitrate=4042.6kbitframe= 1144 fps= 46 q=31.0 size=   22268kB time=45.55 bitrate=4004.6kbitframe= 1170 fps= 47 q=31.0 size=   22550kB time=46.61 bitrate=3963.5kbitframe= 1197 fps= 47 q=24.8 size=   22830kB time=47.66 bitrate=3923.8kbitframe= 1222 fps= 47 q=31.0 size=   23093kB time=48.70 bitrate=3884.9kbitframe= 1247 fps= 47 q=31.0 size=   23350kB time=49.68 bitrate=3850.4kbitframe= 1271 fps= 47 q=31.0 size=   23602kB time=50.64 bitrate=3818.1kbitframe= 1295 fps= 47 q=31.0 size=   23858kB time=51.60 bitrate=3787.7kbitframe= 1322 fps= 47 q=31.0 size=   24185kB time=52.70 bitrate=3759.1kbitframe= 1348 fps= 47 q=31.0 size=   24454kB time=53.71 bitrate=3729.7kbitframe= 1373 fps= 47 q=31.0 size=   24736kB time=54.72 bitrate=3703.2kbitframe= 1396 fps= 47 q=31.0 size=   25007kB time=55.63 bitrate=3682.3kbitframe= 1420 fps= 47 q=31.0 size=   25320kB time=56.59 bitrate=3665.2kbit    Last message repeated 1 times  51092kB time=125.38 bitrate=3338.4kbits/s    
+frame= 3179 fps= 47 q=24.8 Lsize=   51289kB time=126.89 bitrate=3311.3kbits/s    
+video:45200kB audio:1983kB global headers:0kB muxing overhead 8.703473%
